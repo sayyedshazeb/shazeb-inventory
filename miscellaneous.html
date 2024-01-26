@@ -4,16 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Miscellanous</title>
+    <style>
+        table,tr,th,td{
+            border:1px solid black;
+        }
+    </style>
 </head>
 <body>
-  <dl>
-    <dt>HTML</dt>
-    <dd>html stands for hyper text markup language</dd>
-    <dt>CSS</dt>
-    <dd>css stands for cascading style sheets</dd>
-    <dt>JS</dt>
-    <dd>js stands for Javascript</dd>
-  </dl>
-    
+  <table>
+    <caption>My table</caption>
+    <tr>
+        <th>Number</th>
+        <th>Award</th>
+        <th>Year</th>
+        <th>Status</th>
+    </tr>
+    <tr>
+        <td colspan="3">Nothing</td>
+        <td>Nothing</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Runner</td>
+        <td>2012</td>
+        <td rowspan="2">Broker</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Walker</td>
+        <td>2013</td>
+    </tr>
+  </table>
 </body>
 </html>
