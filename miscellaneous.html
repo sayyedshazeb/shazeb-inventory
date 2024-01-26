@@ -11,29 +11,22 @@
     </style>
 </head>
 <body>
-  <table>
-    <caption>My table</caption>
-    <tr>
-        <th>Number</th>
-        <th>Award</th>
-        <th>Year</th>
-        <th>Status</th>
-    </tr>
-    <tr>
-        <td colspan="3">Nothing</td>
-        <td>Nothing</td>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>Runner</td>
-        <td>2012</td>
-        <td rowspan="2">Broker</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>Walker</td>
-        <td>2013</td>
-    </tr>
-  </table>
+    <h1>Form Example</h1>
+    <form action="server.js">
+    <table border="0">
+        <tr>
+            <td><label for="firstName">Enter the first name</label></td>
+            <td><input type="text" name="first" id="firstName"></td>
+        </tr>
+        <tr>
+            <td><label for="lastName">Enter the last name</label></td>
+            <td><input type="text" name="last" id="lastName"></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><button>Submit</button></td>
+        </tr>
+        <tr></tr>
+    </table>
+</form>
 </body>
 </html>
