@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miscellanous</title>
+    <style>
+        table,tr,th,td{
+            border:none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Form Example</h1>
+    <form action="server.js" method="GET">
+   <fieldset>
+    <legend>My Form</legend>
+    <table border="0">
+        <tr>
+            <td><label for="firstName">Enter the first name</label></td>
+            <td><input type="text" name="first" id="firstName"></td>
+        </tr>
+        <tr>
+            <td><label for="lastName">Enter the last name</label></td>
+            <td><input type="text" name="last" id="lastName"></td>
+        </tr>
+        <tr>
+            <td><label for="dateandtime">Enter the Date and Time</label></td>
+            <td><input type="datetime-local" name="dateandtime" id="dateandtime"></td>
+        </tr>
+        <tr>
+            <td><label for="date">Enter the Date</label></td>
+            <td><input type="date" name="date" id="date"></td>
+        </tr>
+        <tr>
+            <td><label for="time">Enter Time</label></td>
+            <td><input type="time" name="" id=""></td>
+        </tr>
+        <tr>
+            <td><label for="week">Enter the week</label></td>
+            <td><input type="week" name="week" id="week"></td>
+        </tr>
+        <tr>
+            <td><label for="week">Enter the Gender</label></td>
+            <td><input type="radio" name="gender" id="male" value="male"><label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female"><label for="female">Female</label>
+            </td>
+        </tr>
+     
+     
+        <tr>
+            <td>Enter Datalist</td>
+            <td>
+                <input type="text" name="" id="" list="myData">
+                <datalist id="myData">
+                    <option value="Apple"></option>
+                    <option value="Mango"></option>
+                    <option value="Grapes"></option>
+                </datalist>
+            </td>
+        </tr>
+        <tr>
+            <td>Enter Optgroup</td>
+          <td> <select name="" id="">
+            <option value="">--Select--</option>
+            <optgroup label="Cars">
+                <option value="">Rolls Royce</option>
+                <option value="">BMW</option>
+                <option value="">Audi</option>
+                <option value="">Aston Martin</option>
+                <option value="">Bugatti</option>
+            </optgroup>
+            <optgroup label="Bikes">
+                <option value="">BMW</option>
+                <option value="">Royal Field</option>
+                <option value="">Jawa</option>
+            </optgroup>
+            <optgroup label="Others">
+                <option value="">Bullock Cart</option>
+            </optgroup>
+        </select></td>
+        </tr>
+    </table>
+   </fieldset>
+   <tr>
+    <td colspan="2" align="center">
+        <button>Submit</button>
+        <input type="submit" value="Submit with input type as submit">
+        <input type="button" value="submit with input type as button">            
+    </td>
+</tr>
+</form>
+
+</body>
+</html>
