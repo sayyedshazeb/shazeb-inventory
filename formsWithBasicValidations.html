@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms with basic validations</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Form with basic validations</legend>
+        <form action="server.js" method="GET">
+            <table>
+                <tr>
+                    <td>Enter the First Name</td>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Enter the Last Name</td>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Enter the E-mail Name</td>
+                    <td><input type="email" required name="" id="" ></td>
+                </tr>
+                <tr>
+                    <td>Enter the Password Name</td>
+                    <td><input type="password" name="" id="" minlength="4" maxlength="6"></td>
+                </tr>
+                <tr>
+                    <td>Enter the number for validation</td>
+                    <td><input type="number" name="" id="" min="2" max="6"></td>
+                </tr>
+                <td align="center">
+                    <button>Signup</button>
+                    <input type="reset" value="Reset the Form">
+                </td>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>
